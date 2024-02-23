@@ -232,12 +232,12 @@ jobs:
           # Submodule Loop patches:
           # Template for customizing submodule Loop (changes Loop app name to "CustomLoop")
           # Remove the "#" sign from the beginning of the line below to activate:
-          #curl https://github.com/loopnlearn/Loop/commit/d206432b024279ef710df462b20bd464cd9682d4.patch | git apply --directory=Loop -v --whitespace=fix
+          curl https://github.com/oddst/Loop/commit/063939c5d2661b161ad6bd4e0a8bc350037c9c65.patch | git apply --directory=Loop -v --whitespace=fix
           
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
-          #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
+          curl https://github.com/oddst/LoopKit/commit/592f931e94fe1f00d8a270e7a5d2c31a969ec881.patch | git apply --directory=LoopKit -v --whitespace=fix
           
           # Submodule xxxxx patches:
 
