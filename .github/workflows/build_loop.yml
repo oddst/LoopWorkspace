@@ -232,12 +232,12 @@ jobs:
           # Submodule Loop patches:
           # Template for customizing submodule Loop (changes Loop app name to "CustomLoop")
           # Remove the "#" sign from the beginning of the line below to activate:
-          curl https://github.com/oddst/Loop/commit/063939c5d2661b161ad6bd4e0a8bc350037c9c65.patch | git apply --directory=Loop -v --whitespace=fix
+          curl https://github.com/oddst/Loop/commit/4d4fc3a0dffd133364e68277e40c7ef7e287b05b.patch | git apply --directory=Loop -v --whitespace=fix
           
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
-          curl https://github.com/oddst/LoopKit/commit/592f931e94fe1f00d8a270e7a5d2c31a969ec881.patch | git apply --directory=LoopKit -v --whitespace=fix
+          curl https://github.com/oddst/LoopKit/commit/6e12fe839be295d9df84692df567d0ea733548da.patch | git apply --directory=LoopKit -v --whitespace=fix
           
           # Submodule xxxxx patches:
 
@@ -251,9 +251,8 @@ jobs:
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+          dexcom_upload_readings \
           future_carbs_4h \
-          high_carb_limit \
-          override_sens \
           now_line \
           lnl_icon \
           2002
