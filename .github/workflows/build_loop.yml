@@ -255,7 +255,9 @@ jobs:
           future_carbs_4h \
           now_line \
           lnl_icon \
-          2002
+          2002 \
+          basal_lock \
+          watch_title
 
           # the final customization listed above CANNOT have a continuation character "\"
           # more customizations can be pasted after this line
