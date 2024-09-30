@@ -276,7 +276,7 @@ jobs:
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
-
+        
           # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
           #   the line following a "\" should not be blank
@@ -286,13 +286,15 @@ jobs:
           future_carbs_4h \
           now_line \
           lnl_icon \
-          2002 \
+          watch_title \
+          meal_days \
+          profiles \
           basal_lock \
-          watch_title
+          live_activity
 
-          # the final customization listed above CANNOT have a continuation character "\"
+          # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
-
+          
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
