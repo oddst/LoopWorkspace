@@ -275,6 +275,7 @@ jobs:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
+          curl https://github.com/oddst/LoopKit/commit/6e12fe839be295d9df84692df567d0ea733548da.patch | git apply --directory=LoopKit -v --whitespace=fix
 
           # Submodule xxxxx patches:
 
