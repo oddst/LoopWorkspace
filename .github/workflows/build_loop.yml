@@ -217,7 +217,6 @@ jobs:
           
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
-          dexcom_upload_readings \
           future_carbs_4h \
           now_line \
           lnl_icon \
@@ -225,7 +224,6 @@ jobs:
           meal_days \
           profiles \
           basal_lock \
-          live_activity \
           negative_insulin
 
           # the final customization listed above CANNOT have a continuation character
