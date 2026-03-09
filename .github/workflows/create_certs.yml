@@ -22,7 +22,7 @@ jobs:
   create_certs:
     name: Certificates
     needs: validate
-    runs-on: macos-15
+    runs-on: macos-26
     outputs:
       new_certificate_needed: ${{ steps.set_output.outputs.new_certificate_needed }}
   
