@@ -217,7 +217,6 @@ jobs:
           future_carbs_4h \
           now_line \
           lnl_icon \
-          watch_title \
           meal_days \
           basal_lock \
           negative_insulin
