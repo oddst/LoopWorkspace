@@ -220,7 +220,6 @@ jobs:
           lnl_icon \
           meal_days \
           cgm_sensor_notes \
-          basal_lock \
           negative_insulin
 
           # the final customization listed above CANNOT have a continuation character
