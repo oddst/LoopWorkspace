@@ -250,7 +250,6 @@ jobs:
           meal_days \
           cgm_sensor_notes \
           profiles \
-          basal_lock \
           negative_insulin
 
           # the final customization listed above CANNOT have a continuation character
