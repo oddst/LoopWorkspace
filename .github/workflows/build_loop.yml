@@ -217,7 +217,6 @@ jobs:
           now_line \
           lnl_icon \
           meal_days \
-          cgm_sensor_notes \
           profiles \
           basal_lock \
           negative_insulin
