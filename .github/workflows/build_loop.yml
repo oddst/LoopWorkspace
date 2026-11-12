@@ -222,7 +222,7 @@ jobs:
           # Submodule Loop patches:
           # Template for customizing submodule Loop (changes Loop app name to "CustomLoop")
           # Remove the "#" sign from the beginning of the line below to activate:
-          curl https://github.com/oddst/Loop/commit/bba16ef92a46901036d945299497170874c87622.patch | git apply --directory=Loop -v --whitespace=fix
+          curl https://github.com/oddst/Loop/commit/d8d547851f76d8f962cbde0b1c1dea1a49c25c59.patch | git apply --directory=Loop -v --whitespace=fix
 
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
